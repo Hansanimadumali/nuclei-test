@@ -1,12 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import UserOnboarding from "./Pages/UserOnboarding/UserOnboarding";
 import ErrorPage from "./Pages/ErrorPage";
 
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
-import ContactDetails from "./Components/ContactDetails";
-import InvestmentPlans from "./Components/InvestmentPlans";
-import InvestmentPref from "./Components/InvestmentPref";
+import { createBrowserRouter, RouterProvider} from "react-router-dom";
 
 const router = createBrowserRouter([
   {

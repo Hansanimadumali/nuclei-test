@@ -7,8 +7,7 @@ import InvestmentPref from "../../Components/InvestmentPref";
 import InvestmentPlans from "../../Components/InvestmentPlans";
 
 const UserOnboarding = () => {
-
-  const {id} = useParams();
+  const { id } = useParams();
 
   return (
     <div>
@@ -21,14 +20,18 @@ const UserOnboarding = () => {
           color={{ background: "#2696E8" }}
           style={{ height: "100vh" }}
         >
-          
           <LeftPane />
         </Grid>
         <Grid item xs={8} md={8} lg={8} color={{ background: "#fffff" }}>
-          {
-            id==1? <ContactDetails/>: id==2? <InvestmentPlans/>:id==3?<InvestmentPref/>:<ContactDetails/>
-          }
-         
+          {id === "1" ? (
+            <ContactDetails />
+          ) : id === "2" ? (
+            <InvestmentPlans />
+          ) : id === "3" ? (
+            <InvestmentPref />
+          ) : (
+            <ContactDetails />
+          )}
         </Grid>
       </Grid>
     </div>
