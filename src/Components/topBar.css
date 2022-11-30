@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+    width:100%;
+    padding-left: 0;
+}
+
+.link {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+    color:#2696E8 ;
+    font-weight: bold;
+}
+
+.font-steps {
+    
+    font-weight: 600;
+    color: #A4AEB4;
+}
+
+.font-text2 {
+    display: flex;
+    font-weight: 500;
+    color: #A4AEB4;
+}

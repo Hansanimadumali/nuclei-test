@@ -1,0 +1,95 @@
+.container-main {
+   padding-left: 15%;
+   padding-right: 15%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.container-logo {
+    margin-top: 0;
+    padding-top: 0;
+}
+.header {
+    text-align: left;
+    margin-top: 10%;
+}
+
+.box-1 {
+    font-style: italic;
+    color: #A4AEB4;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 200 !important;
+    
+}
+.box-2 {
+    font-style: normal;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+
+.box-2-sub {
+    display: flex;
+    justify-content: space-between;
+}
+.box-3 {
+    font-style: normal;
+    text-align: left;
+    font-size: 6;
+    color: #A4AEB4;
+
+
+    
+}
+
+.h2 {
+    text-align: left;
+    margin: 0;
+}
+
+.card-container {
+    position: relative;
+    margin-bottom: 10%;
+}
+.card-main {
+    max-width: 100%;
+ 
+    bottom: 15%;
+    margin-top: 10%;
+ 
+}
+.icon-container {
+    position: absolute;
+    z-index: 1;
+    left: -5%;
+}
+.stepper {
+    color: "#FFFFFF";
+    font-weight: "600";
+}
+
+.stepper-card-main {
+    padding: "30px";
+
+}
+
+.stepper-font {
+    margin-top: "20px";
+    text-align: "left";
+}
+
+.card-icon {
+    z-index: 1;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    box-shadow: 16px 12px 56px rgba(11, 29, 46, 0.15);
+    border-radius: 3px;
+    background-color: #fff;
+}

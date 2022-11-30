@@ -1,0 +1,29 @@
+.selected {
+    color: rgb(42, 116, 165);
+    text-align: left;
+}
+
+.unselected {
+    text-align: left;
+}
+
+.step3-container {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#checkbox {
+    padding-left: 0;
+    padding-top: 0;
+    text-align: left;
+}
+
+.card-selected {
+    border-color: rgb(53, 160, 238) !important;
+   
+}
+

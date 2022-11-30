@@ -1,0 +1,47 @@
+#container {
+    padding-left: 15%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.main-text {
+    color: rgba(8,8,8,40%);
+    font-style: Medium;
+    font-weight: 500;
+    line-height:24px ;
+    font-size: 16px;
+}
+.text1 {
+    color: rgb(8,8,8);
+    font-style: bolder;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    font-weight: 700;
+    line-height:36px ;
+    font-size: 28px;
+}
+.text2 {
+    color: rgb(8,8,8);
+    font-style: bold;
+    font-weight: 700;
+    line-height:28px ;
+    font-size: 21px;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 2%;
+}
+
+#link {
+    text-decoration: none;
+    display: flex;
+    color:#2696E8 ;
+    font-weight: 600;
+}

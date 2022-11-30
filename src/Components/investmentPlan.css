@@ -1,0 +1,23 @@
+
+.invest-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap:2%;
+}
+
+.invest-container {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+    
+}
+
+#main-font {
+    font-family:'Montserrat Alternates', sans-serif !important;
+}
